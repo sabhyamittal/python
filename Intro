@@ -18,4 +18,17 @@ each element is not fixed i.e., the order of all the elements are not maintained
 Example: Sets, Dictionaries.
 lower to higher level mai data types apne aap typecast ho jaate hai .. usse impplicit typecasting
 bolte hai.
+In Python, the pass statement is a null operation. It is used when a statement is required syntactically but you do not want to perform any action or code block. It is often used as a placeholder in situations where code will eventually go, but you're not ready to write that code yet.
 
+Here's an example:
+
+python
+Copy code
+if condition:
+    # Code to be added later
+    pass
+else:
+    print("Condition is False")
+In this example, if the condition is true, the pass statement acts as a placeholder indicating that code will be added later. If the condition is false, it skips the pass statement and executes the code in the else block.
+
+Without the pass statement, Python would raise an indentation error because it expects an indented block of code after the if statement.
